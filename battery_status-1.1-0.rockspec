@@ -2,16 +2,16 @@
 
 package = "battery_status"
 rockspec_format = "1.0"
-version = "1.0-7"
+version = "1.1-0"
 -- LuaDist source
 source = {
-  tag = "1.0-7",
+  tag = "1.1-0",
   url = "git://github.com/LuaDist-testing/battery_status.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/svarogg/battery_status",
---    tag = "v1.0-7"
+--    tag = "v1.1-0"
 -- }
 description = {
    summary = "Battery status indicator.",
