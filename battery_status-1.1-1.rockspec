@@ -2,16 +2,16 @@
 
 package = "battery_status"
 rockspec_format = "1.0"
-version = "1.1-0"
+version = "1.1-1"
 -- LuaDist source
 source = {
-  tag = "1.1-0",
+  tag = "1.1-1",
   url = "git://github.com/LuaDist-testing/battery_status.git"
 }
 -- Original source
 -- source = {
 --    url = "git://github.com/svarogg/battery_status",
---    tag = "v1.1-0"
+--    tag = "v1.1-1"
 -- }
 description = {
    summary = "Battery status indicator.",
@@ -25,7 +25,8 @@ description = {
 dependencies = {
    "lua ~> 5.1",
    "lgi ~> 0.7.2-1" ,
-   "lrexlib-posix ~> 2.7.2-1"
+   "lrexlib-posix ~> 2.7.2-1",
+   "luafilesystem ~> 1.6.2-2",
 }
 build = {
    type = "builtin",
